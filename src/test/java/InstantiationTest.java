@@ -6,15 +6,7 @@ public class InstantiationTest {
 
     Lab i = new Lab();
 
-    /**
-     * Because null represents the lack of an object, any return from instantiateANewObject which is not null
-     * should be counted as a new object.
-     *
-     * (it's actually possible to pass this challenge without using the new keyword by using Strings or an object
-     * received from a static method, or by returning a primitive (autoboxing), which will all be explained later.
-     * For now, let's just focus on the 'new' keyword.)
-     */
-
+    //I accidentally commited this under the name "Hello World", so this is my second time committing it
     
     @Test
     public void testObjectNotNull(){
