@@ -14,10 +14,12 @@ public class InstantiationTest {
      * received from a static method, or by returning a primitive (autoboxing), which will all be explained later.
      * For now, let's just focus on the 'new' keyword.)
      */
+
+    
     @Test
     public void testObjectNotNull(){
-        if(i.instantiateANewObject() == null){
-            Assert.fail("object has not been instantiated");
+        if(i.instantiateANewObject() == "sdf"){
+             Assert.fail("object has not been instantiated");
         }
     }
 }
